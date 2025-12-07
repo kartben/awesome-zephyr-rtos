@@ -55,7 +55,7 @@
 
 ### Filesystem
 
-- [fats](https://github.com/zephyrproject-rtos/fatfs) - Generic FAT/exFAT filesystem module for small embedded systems.
+- [fatfs](https://github.com/zephyrproject-rtos/fatfs) - Generic FAT/exFAT filesystem module for small embedded systems.
 - [littlefs](https://github.com/zephyrproject-rtos/littlefs) - Little fail-safe filesystem designed for microcontrollers.
 - [nffs](https://github.com/zephyrproject-rtos/nffs) - Flash file system prioritizing minimal ram usage & reliability.
 
@@ -77,7 +77,7 @@
 ### Languages & Runtimes
 
 - [lispBM](https://github.com/svenssonjoel/lispBM) - LispBM is a lisp or scheme like programming language for microcontrollers.
-- [micropython](https://github.com/micropython/micropython) - a lean and efficient Python implementation for microcontrollers and constrained systems.
+- [micropython](https://github.com/micropython/micropython) - A lean and efficient Python implementation for microcontrollers and constrained systems.
 - [wasm-micro-runtime](https://github.com/bytecodealliance/wasm-micro-runtime) - Lightweight standalone WebAssembly (WASM) runtime.
 
 ### Machine Learning / TinyML
@@ -144,11 +144,11 @@
 
 - [Ardesco-VSCode-Extension](https://github.com/Ericsson/Ardesco-VSCode-Extension) - Ericsson Ardesco device development extension.
 - [Zephyr Tools for VSCode](https://github.com/circuitdojo/zephyr-tools) - Circuit Dojo designed Zephyr Tools to make getting started with Zephyr a snap.
-- [Embedded Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-embedded-tools) - A register viewer for CMSIS-SVD files and an RTOS data viewer
-- [nRF Connect for VS Code](https://marketplace.visualstudio.com/items?itemName=nordic-semiconductor.nrf-connect)
-- [PlatformIO](https://docs.zephyrproject.org/latest/guides/platformio/index.html)
-- [VS Code importer](https://github.com/smrtos/Zephyr2VSC)
-- [Zephyrus](https://github.com/tuScale/vscode-zephyrus)
+- [Embedded Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-embedded-tools) - A register viewer for CMSIS-SVD files and an RTOS data viewer.
+- [nRF Connect for VS Code](https://marketplace.visualstudio.com/items?itemName=nordic-semiconductor.nrf-connect) - Nordic Semiconductor's official extension for developing with nRF devices.
+- [PlatformIO](https://docs.zephyrproject.org/latest/guides/platformio/index.html) - Cross-platform IDE and build system with Zephyr support.
+- [VS Code importer](https://github.com/smrtos/Zephyr2VSC) - Import Zephyr projects into VS Code.
+- [Zephyrus](https://github.com/tuScale/vscode-zephyrus) - VS Code extension for Zephyr development.
 
 #### Other Editors & IDEs
 
@@ -157,29 +157,29 @@
 
 ### Flash, Debug & Test
 
-- Atmel SAM-BA
+- [Atmel SAM-BA](https://www.microchip.com/en-us/development-tool/SAM-BA-In-system-Programmer) - In-system programmer for Atmel/Microchip SAM devices.
 - [EDTT (Embedded Device Test Tool)](https://github.com/zephyrproject-rtos/edtt)
-- esptool
+- [esptool](https://github.com/espressif/esptool) - Flashing tool for Espressif chips.
 - [GNU Tools (GDB, Binutils)](https://github.com/zephyrproject-rtos/binutils-gdb)
 - [mcumgr](https://github.com/zephyrproject-rtos/mcumgr)
   - [Android](https://github.com/NordicSemiconductor/Android-nRF-Connect-Device-Manager)
   - [iOS](https://github.com/NordicSemiconductor/IOS-nRF-Connect-Device-Manager)
   - [Web](https://github.com/boogie/mcumgr-web)
 - [OpenOCD](https://github.com/zephyrproject-rtos/openocd)
-- pyOCD
+- [pyOCD](https://github.com/pyocd/pyOCD) - Python based tool for programming and debugging ARM Cortex-M microcontrollers.
 - [SEGGER](https://github.com/zephyrproject-rtos/segger)
 - [libjaylink](https://github.com/zephyrproject-rtos/libjaylink) - libjaylink is a shared library written in C to access SEGGER J-Link and compatible devices.
 - [jlink-zephyr](https://github.com/zephyrproject-rtos/jlink-zephyr) - Zephyr RTOS plugin for JlinkGDBserver.
-- Twister
+- [Twister](https://docs.zephyrproject.org/latest/develop/test/twister.html) - Zephyr's integrated test runner for executing automated tests.
 
 ### Simulation
 
-- ACRN
+- [ACRN](https://projectacrn.org/) - Flexible, lightweight reference hypervisor for IoT and edge devices.
 - [QEMU](https://github.com/zephyrproject-rtos/qemu)
   - [Network Tools](https://github.com/zephyrproject-rtos/net-tools)
   - [SeaBIOS](https://github.com/zephyrproject-rtos/seabios)
 - [Renode](https://zephyr-dashboard.renode.io/)
-- XEN
+- [Xen](https://xenproject.org/) - Type-1 hypervisor for embedded and IoT virtualization.
 
 ### Version Control
 
