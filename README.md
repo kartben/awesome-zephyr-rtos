@@ -1,5 +1,5 @@
 ![Dark Logo](assets/awesome_zephyr_rtos_logo_dark.png#gh-dark-mode-only)
-![Ligh Logo](assets/awesome_zephyr_rtos_logo_light.png#gh-light-mode-only)
+![Light Logo](assets/awesome_zephyr_rtos_logo_light.png#gh-light-mode-only)
 
 # 🪁 Awesome Zephyr RTOS [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
@@ -13,7 +13,7 @@
 - [Official Resources](#official-resources)
 - [Libraries](#libraries)
 - [Tools](#tools)
-- [Open Source Hardware](#open-source-hardware)
+- [Open Source Hardware & Firmware](#open-source-hardware--firmware)
 - [Videos](#videos)
 - [Learning Material](#learning-material)
 
@@ -29,13 +29,13 @@
   - [example-application](https://github.com/zephyrproject-rtos/example-application) - Example out-of-tree application that is also a module.
   - [docker-image](https://github.com/zephyrproject-rtos/docker-image) - Docker image suitable for development and CI.
 - [discord](https://discord.com/invite/Ck7jw53nU2) - Community chat hosted on Discord.
-- [mailing list](https://lists.zephyrproject.org/g/main/subgroups) - Mail & web based mailing list powere by Groups.io.
-- [youtube](https://www.youtube.com/c/ZephyrProject) - Conferences videos and event highlights.
+- [mailing list](https://lists.zephyrproject.org/g/main/subgroups) - Mail & web based mailing list powered by Groups.io.
+- [youtube](https://www.youtube.com/@zephyrproject) - Conferences videos and event highlights.
 - [blog](https://www.zephyrproject.org/community/#blog) / [RSS](https://www.zephyrproject.org/category/blog/feed/) - Posts from the project and community.
-- [twitter](https://twitter.com/zephyriot) / [linkedin](https://www.linkedin.com/company/the-zephyr-project) / [facebook](https://www.facebook.com/ZephyrIoT/) / [mastodon](https://social.lfx.dev/@zephyr) - Various social feeds.
+- [X (Twitter)](https://x.com/zephyriot) / [linkedin](https://www.linkedin.com/company/the-zephyr-project) / [facebook](https://www.facebook.com/ZephyrIoT/) / [mastodon](https://social.lfx.dev/@zephyr) - Various social feeds.
 - [newsletter](https://www.zephyrproject.org/newsletter/) - Quarterly newsletter.
 - [ambassadors](https://www.zephyrproject.org/ambassadors/) - List of community experts.
-- [vulnerability alert registry](https://www.zephyrproject.org/vulnerability-registry/) - Email notifications of vulnerabilties.
+- [vulnerability alert registry](https://www.zephyrproject.org/vulnerability-registry/) - Email notifications of vulnerabilities.
 - [store](https://zephyr-project.myspreadshop.com/) - Get merch.
 - [job board](https://www.zephyrproject.org/careers/) - Search roles from Zephyr member companies.
 
@@ -44,7 +44,7 @@
 
 ### Application frameworks
 
-- [gsoc-2022-arduino-core](https://github.com/zephyrproject-rtos/gsoc-2022-arduino-core) - Arduino Core API module with an Arduino-C++ style abtraction layer.
+- [gsoc-2022-arduino-core](https://github.com/zephyrproject-rtos/gsoc-2022-arduino-core) - Arduino Core API module with an Arduino-C++ style abstraction layer.
 - [chre](https://github.com/zephyrproject-rtos/chre) - Context Hub Runtime Environment (CHRE) is Android’s platform for developing always-on applications, called nanoapps.
 - [control](https://github.com/swedishembedded/control) - A control systems design library written in pure C that provides you with advanced algorithms for control, state estimation and model identification specifically designed for use on embedded systems.
 - [micro_ros_zephyr_module](https://github.com/micro-ROS/micro_ros_zephyr_module) - ROS 2 for microcontrollers.
@@ -71,7 +71,7 @@
 - [Memfault](https://github.com/memfault/memfault-firmware-sdk/tree/master/ports/zephyr) - Cloud-based debugging & observability.
 - [openhaystack-zephyr](https://github.com/koenvervloesem/openhaystack-zephyr) - Track personal Bluetooth devices via Apple's massive Find My network.
 - [send-my-sensor](https://github.com/koenvervloesem/send-my-sensor) - Upload sensor data from a device without internet connection by (ab)using Apple's Find My network.
-- [thingset-zephyr-sdk](https://github.com/ThingSet/thingset-zephyr-sdk) - A software development kit (SDK) based on Zephyr RTOS to integrate communication interfaces using the ThingSet protocol into an application with minimum effort. See https://thingset.io/.
+- [thingset-zephyr-sdk](https://github.com/ThingSet/thingset-zephyr-sdk) - A software development kit (SDK) based on Zephyr RTOS to integrate communication interfaces using the ThingSet protocol into an application with minimum effort. See https://thingset.io.
 - [zephyrus](https://github.com/mustafaabdullahk/zephyrus) - A lightweight C library for exposing Prometheus metrics in Zephyr applications.
 
 ### Languages & Runtimes
@@ -94,7 +94,7 @@
   - [tinycbor](https://github.com/zephyrproject-rtos/tinycbor) - Small CBOR library.
   - [QCBOR](https://github.com/laurencelundblade/QCBOR) - Comprehensive CBOR library.
   - [zcbor](https://github.com/NordicSemiconductor/zcbor/) - CBOR library that includes support for CDDL.
-- [cosy](https://github.com/lindemer/cozy) - CBOR Object Signing and Encryption (COSE).
+- [cozy](https://github.com/lindemer/cozy) - CBOR Object Signing and Encryption (COSE).
 - [greybus-for-zephyr](https://github.com/cfriedt/greybus-for-zephyr) - Protocol for hotpluggable devices.
 - [nanopb](https://github.com/zephyrproject-rtos/nanopb) - Protocol Buffers for Embedded Systems.
 - [openthread](https://github.com/zephyrproject-rtos/openthread) - Thread mesh networking protocol.
@@ -104,7 +104,7 @@
 
 ### Security
 
-- [aerology](https://github.com/Linaro/aerology) - Inspect Zephyr and TF-M applications, post mortem.
+- [Aerology](https://github.com/Linaro/aerology) - Inspect Zephyr and TF-M applications, post mortem.
 - [mbed TLS](https://github.com/zephyrproject-rtos/mbedtls) - C library that implements cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols.
 - [MCUboot](https://github.com/zephyrproject-rtos/mcuboot) - A secure bootloader for 32-bits microcontrollers.
 - [TF - M](https://github.com/zephyrproject-rtos/trusted-firmware-m) - Platform Security Architecture (PSA) for ARMv7-M and Armv8-M.
@@ -157,7 +157,6 @@
 
 ### Flash, Debug & Test
 
-- [Aerology](https://github.com/Linaro/aerology) - Inspect Zephyr and TF-M applications, post mortem.
 - Atmel SAM-BA
 - [EDTT (Embedded Device Test Tool)](https://github.com/zephyrproject-rtos/edtt)
 - esptool
