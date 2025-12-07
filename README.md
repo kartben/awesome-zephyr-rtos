@@ -152,7 +152,7 @@
 
 #### Other Editors & IDEs
 
-- [Eclipse](https://github.com/zephyrproject-rtos/eclipse-plugin)
+- [Eclipse](https://github.com/zephyrproject-rtos/eclipse-plugin) - Eclipse IDE plugin for Zephyr development.
 - [CMake Zephyr helpers](https://github.com/thirdpin/Zephyr-CMake-Helpers) - Enhance CMake automation for use with VS Code.
 
 ### Flash, Debug & Test
